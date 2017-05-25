@@ -5,24 +5,11 @@ using System.Web;
 
 namespace proyecto_final2
 {
-    public class Comunidad
+    public class DatosPropietarios
     {
-        string identificacion;
         string nombre;
-        int poblacion;
-
-        public string Identificacion
-        {
-            get
-            {
-                return identificacion;
-            }
-
-            set
-            {
-                identificacion = value;
-            }
-        }
+        int nit;
+        string correo;
 
         public string Nombre
         {
@@ -37,16 +24,29 @@ namespace proyecto_final2
             }
         }
 
-        public int Poblacion
+        public int Nit
         {
             get
             {
-                return poblacion;
+                return nit;
             }
 
             set
             {
-                poblacion = value;
+                nit = value;
+            }
+        }
+
+        public string Correo
+        {
+            get
+            {
+                return correo;
+            }
+
+            set
+            {
+                correo = value;
             }
         }
     }

@@ -5,13 +5,13 @@ using System.Web;
 
 namespace proyecto_final2
 {
-    public class Comunidad
+    public class Gastos
     {
-        string identificacion;
+        int identificacion;
         string nombre;
-        int poblacion;
+        int tipoReparto;
 
-        public string Identificacion
+        public int Identificacion
         {
             get
             {
@@ -37,16 +37,16 @@ namespace proyecto_final2
             }
         }
 
-        public int Poblacion
+        public int TipoReparto
         {
             get
             {
-                return poblacion;
+                return tipoReparto;
             }
 
             set
             {
-                poblacion = value;
+                tipoReparto = value;
             }
         }
     }
