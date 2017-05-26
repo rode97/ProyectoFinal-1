@@ -7,11 +7,11 @@ namespace proyecto_final2
 {
     public class Gastos
     {
-        int identificacion;
+        string identificacion;
         string nombre;
-        int tipoReparto;
+        string tipoReparto;
 
-        public int Identificacion
+        public string Identificacion
         {
             get
             {
@@ -37,7 +37,7 @@ namespace proyecto_final2
             }
         }
 
-        public int TipoReparto
+        public string TipoReparto
         {
             get
             {

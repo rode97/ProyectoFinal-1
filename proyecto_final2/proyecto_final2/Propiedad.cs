@@ -9,7 +9,7 @@ namespace proyecto_final2
     {
         string tipo;
         string codigo;
-        int metros;
+        int metrosCuadrados;
         string propietario;
         List<string> gastos;
 
@@ -39,16 +39,16 @@ namespace proyecto_final2
             }
         }
 
-        public int Metros
+        public int MetrosCuadrados
         {
             get
             {
-                return metros;
+                return metrosCuadrados;
             }
 
             set
             {
-                metros = value;
+                metrosCuadrados = value;
             }
         }
 

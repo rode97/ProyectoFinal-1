@@ -5,7 +5,7 @@ using System.Web;
 
 namespace proyecto_final2
 {
-    public class Piso
+    public class Piso:Propiedad
     {
         string vhvn;
         string habitaciones;

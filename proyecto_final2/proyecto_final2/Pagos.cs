@@ -7,23 +7,10 @@ namespace proyecto_final2
 {
     public class Pagos
     {
-        int idgasto;
+        string idgasto;
         string descripcion;
         int importe;
         string tipoReparto;
-
-        public int Idgasto
-        {
-            get
-            {
-                return idgasto;
-            }
-
-            set
-            {
-                idgasto = value;
-            }
-        }
 
         public string Descripcion
         {
@@ -61,6 +48,19 @@ namespace proyecto_final2
             set
             {
                 tipoReparto = value;
+            }
+        }
+
+        public string Idgasto
+        {
+            get
+            {
+                return idgasto;
+            }
+
+            set
+            {
+                idgasto = value;
             }
         }
     }

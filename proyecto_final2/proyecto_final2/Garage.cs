@@ -9,5 +9,31 @@ namespace proyecto_final2
     {
         string abierta; //abiertacerrada
         string bodega;
+
+        public string Abierta
+        {
+            get
+            {
+                return abierta;
+            }
+
+            set
+            {
+                abierta = value;
+            }
+        }
+
+        public string Bodega
+        {
+            get
+            {
+                return bodega;
+            }
+
+            set
+            {
+                bodega = value;
+            }
+        }
     }
 }

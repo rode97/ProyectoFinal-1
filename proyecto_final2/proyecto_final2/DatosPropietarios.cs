@@ -8,7 +8,7 @@ namespace proyecto_final2
     public class DatosPropietarios
     {
         string nombre;
-        int nit;
+        string nit;
         string correo;
 
         public string Nombre
@@ -24,19 +24,6 @@ namespace proyecto_final2
             }
         }
 
-        public int Nit
-        {
-            get
-            {
-                return nit;
-            }
-
-            set
-            {
-                nit = value;
-            }
-        }
-
         public string Correo
         {
             get
@@ -47,6 +34,19 @@ namespace proyecto_final2
             set
             {
                 correo = value;
+            }
+        }
+
+        public string Nit
+        {
+            get
+            {
+                return nit;
+            }
+
+            set
+            {
+                nit = value;
             }
         }
     }
