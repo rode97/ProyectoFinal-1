@@ -175,6 +175,19 @@ namespace proyecto_final2
                 propiedadTemp.Tipo = leer.ReadLine();
                 propiedadTemp.Codigo = leer.ReadLine();
                 propiedadTemp.MetrosCuadrados = Convert.ToInt32(leer.ReadLine());
+                //List<string> gastosTemp = new List<string>();
+                string gastostr = "";
+                while(gastostr != "----")
+                {
+                    //lee 1 gasto
+                    gastostr = leer.ReadLine();
+                    //Guarda el gasto en una lista temporal
+                    if(gastostr != "----")
+                    {
+                        propiedadTemp.Gastos.Add(leer.ReadLine());
+                    }
+
+                }
 
                 listPropiedad.Add(propiedadTemp);
             }
